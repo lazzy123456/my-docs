@@ -11,15 +11,15 @@
 ![个人仓库](images/1.png)
 
 ### 2.2 项目结构与 MkDocs 配置
-![项目目录mkdocs](images/2.png)
+![项目目录](images/2.png)![mkdocs](images/3.png)
 说明：docs存放markdown源文档；nav在mkdocs.yml定义导航栏；site是mkdocs构建输出产物，不提交到git。
 
 ### 2.3 本地构建或预览
-![本地预览](images3/.png)(images4/.png)(images5/.png)(images6/.png)
+![首页](images/4.png)![关于](images/5.png)![使用指南](images/6.png)![API参考](images/7.png)
 说明：本地启动mkdocs serve，依次检查4个页面、导航链接、表格、代码块是否正常。
 
 ### 2.4 Pages 设置
-![Pages来源设置](images8.png)
+![Pages来源设置](images/8.png)
 说明：Pages发布来源选择GitHub Actions，使用官方工作流发布。
 
 ### 2.5 Actions 首次构建和部署
